@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.terminator" version="3.0" name="[COLOR gold][B]Terminator[/B][/COLOR]" provider-name="TERMI">
+<addon id="plugin.video.terminator" version="4.0" name="[COLOR gold][B]Terminator[/B][/COLOR]" provider-name="TERMI">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.addon.common" optional="true" />
@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-    <addon id="repository.termirepo" name="Termi repo" version="1.0.0" provider-name="Terminator">
+    <addon id="repository.termirepo" name="Termi repo" version="1.0.1" provider-name="Terminator">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>

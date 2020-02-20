@@ -28,8 +28,8 @@ ICON = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'iic
 FANART = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'fanart.jpg')) 
 APKS = base64.b64decode("aHR0cDovL2ZhYmlwdHYuY29tL2Fwa3MvbmV3YXBrcy50eHQ=")
 HOME =  xbmc.translatePath('special://home/')
-lehekylg= base64.b64decode("aHR0cDovL2xhbmRpcHR2LmxpdmU=") #--> OVDJE IDE URL OD IPTV PROVIDERA
-pordinumber= ("8080") #--> PORT NUMBER
+lehekylg= base64.b64decode("aHR0cDovL3Rlcm1pbmF0b3IuYmFsa2FuLXgubmV0") #--> OVDJE IDE URL OD IPTV PROVIDERA
+pordinumber= ("25461") #--> PORT NUMBER
 message = "VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"
 kasutajanimi=plugintools.get_setting("Username")
 salasona=plugintools.get_setting("Password")
